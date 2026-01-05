@@ -67,14 +67,17 @@ Enter the required health parameters to view the prediction result.
 ## Project Structure
 
 ```
-app.py                 Streamlit web application  
-model_train.ipynb      Model training and evaluation  
-heart.csv              Dataset  
-knn_model.pkl          Trained machine learning model  
-scaler.pkl             Feature scaler  
-requirements.txt       Project dependencies  
-README.md              Project documentation  
+heart-disease-risk-prediction/
+│
+├── app.py                 # Streamlit web application
+├── model_train.ipynb      # Model training and evaluation
+├── heart.csv              # Dataset used for training
+├── knn_model.pkl          # Trained KNN model
+├── scaler.pkl             # Feature scaling object
+├── requirements.txt       # Project dependencies
+└── README.md              # Project documentation
 ```
+
 
 ## Help
 
@@ -100,7 +103,7 @@ Machine Learning | Data Science | Web Development
 
 ## Acknowledgments
 
-- UCI / Kaggle Heart Disease Dataset  
+- Kaggle Heart Disease Dataset  
 - Scikit-learn Documentation  
 - Streamlit Community  
 - Open-source Machine Learning Contributors  
