@@ -3,11 +3,13 @@ A Machine Learning–based Heart Disease Risk Predictor built using Python, Scik
 This application predicts whether a person is at high or low risk of heart disease based on clinical health parameters.
 
 Project Overview
+
 Heart disease is one of the leading causes of death worldwide. Early prediction can help in timely medical intervention.
 This project uses machine learning classification models trained on clinical data to predict heart disease risk.
 The final deployed app uses a K-Nearest Neighbors (KNN) model with standardized input features.
 
 Features
+
 Interactive Streamlit web interface
 User-friendly form for health inputs
 Machine Learning–based prediction
