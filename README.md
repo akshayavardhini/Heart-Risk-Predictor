@@ -4,85 +4,73 @@ A machine learning–based web application that predicts the risk of heart disea
 
 ## Description
 
-The Heart Disease Risk Prediction project focuses on identifying whether an individual is at high or low risk of developing heart disease based on medical attributes. The system uses supervised machine learning techniques, where multiple classification models are trained and evaluated. The best-performing model is deployed through an interactive Streamlit web application. This project is developed for educational and demonstration purposes.
+The Heart Disease Risk Prediction project focuses on identifying whether an individual is at high or low risk of developing heart disease based on medical attributes. The system uses supervised machine learning techniques where multiple classification models are trained and evaluated. The best-performing model is deployed using an interactive Streamlit web application. This project is developed for educational and demonstration purposes.
 
 ## Features
 
-- User-friendly Streamlit web interface
-- Real-time heart disease risk prediction
-- Machine learning–based classification
-- Standardized data preprocessing
-- Clear prediction output (High Risk / Low Risk)
+• User-friendly Streamlit web interface  
+• Real-time heart disease risk prediction  
+• Machine learning–based classification  
+• Standardized data preprocessing  
+• Clear prediction output (High Risk / Low Risk)  
 
 ## Getting Started
 
 ### Dependencies
 
-- Python 3.8 or higher
-- Operating System: Windows / macOS / Linux
+Python 3.8 or higher  
+Operating System: Windows / macOS / Linux  
 
-Required Python libraries:
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- streamlit
-- joblib
-- xgboost
+Required Python libraries:  
+pandas  
+numpy  
+scikit-learn  
+matplotlib  
+seaborn  
+streamlit  
+joblib  
+xgboost  
 
 All required dependencies are listed in the requirements.txt file.
 
 ### Installing
-1. Clone the repository
-   
-git clone https://github.com/akshayavardhini/heart-disease-risk-prediction.git
 
-2. Navigate to the project directory
+Clone the repository  
+git clone https://github.com/akshayavardhini/heart-disease-risk-prediction.git  
 
-cd heart-disease-risk-prediction
+Navigate to the project directory  
+cd heart-disease-risk-prediction  
 
-3. Install dependencies
-
-pip install -r requirements.txt
+Install the required dependencies  
+pip install -r requirements.txt  
 
 ### Executing Program
-1. Ensure all dependencies are installed
 
-2. Run the application
+Run the Streamlit application  
+streamlit run app.py  
 
-streamlit run app.py
+Open the browser and navigate to  
+http://localhost:8501  
 
-3. Open the browser and visit
-
-http://localhost:8501
-
-4. Enter the required health parameters to view the prediction result
+Enter the required health parameters to view the prediction result.
 
 ## Project Structure
-├── app.py
 
-├── model_train.ipynb
-
-├── heart.csv
-
-├── knn_model.pkl
-
-├── scaler.pkl
-
-├── requirements.txt
-
-└── README.md
+app.py – Streamlit web application  
+model_train.ipynb – Model training and evaluation  
+heart.csv – Dataset  
+knn_model.pkl – Trained machine learning model  
+scaler.pkl – Feature scaler  
+requirements.txt – Project dependencies  
+README.md – Project documentation  
 
 ## Help
 
-If you encounter issues while running the application, try the following:
+If you face issues while installing dependencies or running the application, execute:  
+pip install --upgrade pip  
+pip install -r requirements.txt  
 
-pip install --upgrade pip
-
-pip install -r requirements.txt
-
-Ensure Python is properly installed and added to the system PATH.
+Ensure Python is installed correctly and added to the system PATH.
 
 ## Disclaimer
 
@@ -94,14 +82,11 @@ Always consult a certified healthcare professional for medical advice.
 
 Akshaya Vardhini  
 Pre-Final Year M.Tech Integrated Software Engineering Student, VIT  
-Machine Learning | Data Science | Web Development
+Machine Learning | Data Science | Web Development  
 
 ## Acknowledgments
 
-- UCI / Kaggle Heart Disease Dataset
-- Scikit-learn Documentation
-- Streamlit Community
-- Open-source Machine Learning Contributors
-
-
-
+UCI / Kaggle Heart Disease Dataset  
+Scikit-learn Documentation  
+Streamlit Community  
+Open-source Machine Learning Contributors  
