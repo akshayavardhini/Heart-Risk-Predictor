@@ -35,38 +35,51 @@ All required dependencies are listed in the requirements.txt file.
 
 ### Installing
 1. Clone the repository
+   
 git clone https://github.com/akshayavardhini/heart-disease-risk-prediction.git
 
 2. Navigate to the project directory
+
 cd heart-disease-risk-prediction
 
 3. Install dependencies
+
 pip install -r requirements.txt
 
 ### Executing Program
 1. Ensure all dependencies are installed
 
 2. Run the application
+
 streamlit run app.py
 
 3. Open the browser and visit
+
 http://localhost:8501
 
 4. Enter the required health parameters to view the prediction result
 
 ## Project Structure
 ├── app.py
+
 ├── model_train.ipynb
+
 ├── heart.csv
+
 ├── knn_model.pkl
+
 ├── scaler.pkl
+
 ├── requirements.txt
+
 └── README.md
 
 ## Help
 
 If you encounter issues while running the application, try the following:
+
 pip install --upgrade pip
+
 pip install -r requirements.txt
 
 Ensure Python is properly installed and added to the system PATH.
