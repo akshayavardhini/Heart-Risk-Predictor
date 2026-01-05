@@ -14,6 +14,15 @@ The Heart Disease Risk Prediction project focuses on identifying whether an indi
 - Standardized data preprocessing  
 - Clear prediction output (High Risk / Low Risk)
 
+## Live Application
+
+The application is already deployed and hosted using Streamlit.
+
+Access the live app here:
+```
+https://heartrisk-predictor.streamlit.app/
+```
+
 ## Getting Started
 
 ### Dependencies
