@@ -1,55 +1,94 @@
-# Heart-Risk-Predictor
-A Machine Learning–based Heart Disease Risk Predictor built using Python, Scikit-learn, and Streamlit.
-This application predicts whether a person is at high or low risk of heart disease based on clinical health parameters.
+# Heart Disease Risk Prediction
 
-Project Overview
+A machine learning–based web application that predicts the risk of heart disease using clinical health parameters.
 
-Heart disease is one of the leading causes of death worldwide. Early prediction can help in timely medical intervention.
-This project uses machine learning classification models trained on clinical data to predict heart disease risk.
-The final deployed app uses a K-Nearest Neighbors (KNN) model with standardized input features.
+## Description
 
-Features
+The Heart Disease Risk Prediction project focuses on identifying whether an individual is at high or low risk of developing heart disease based on medical attributes. The system uses supervised machine learning techniques, where multiple classification models are trained and evaluated. The best-performing model is deployed through an interactive Streamlit web application. This project is developed for educational and demonstration purposes.
 
-Interactive Streamlit web interface
-User-friendly form for health inputs
-Machine Learning–based prediction
-Real-time result display (High / Low Risk)
-Educational medical disclaimer
-Clean UI with custom styling
+## Features
 
-Machine Learning Models Used (During Training)
-The following models were trained and evaluated:
-Random Forest Classifier
-Support Vector Classifier(SVC)
-K-Nearest Neighbors(KNN) - Final Model
-Naive Bayes
-Histogram Gradient Boosting
-Voting Classifier (Ensemble)
-KNN was selected based on performance and stability.
+- User-friendly Streamlit web interface
+- Real-time heart disease risk prediction
+- Machine learning–based classification
+- Standardized data preprocessing
+- Clear prediction output (High Risk / Low Risk)
 
-Dataset
-Dataset Name: Heart Disease Dataset
-Target Column: target
-Task Type: Binary Classification (0 → Low Risk, 1 → High Risk)
-Input Features:
-Age
-Sex
-Chest Pain Type (cp)
-Resting Blood Pressure (trestbps)
-Cholesterol (chol)
-Fasting Blood Sugar (fbs)
-Resting ECG (restecg)
-Maximum Heart Rate (thalach)
-Exercise-Induced Angina (exang)
-Oldpeak
-ST Slope (slope)
-Number of Major Vessels (ca)
-Thalassemia (thal)
+## Getting Started
 
-Tech Stack
-Programming Language: Python
-Frontend: Streamlit
-Machine Learning: Scikit-learn, XGBoost
-Data Handling: Pandas, NumPy
-Model Persistence: Joblib
-Visualization: Matplotlib, Seaborn
+### Dependencies
+
+- Python 3.8 or higher
+- Operating System: Windows / macOS / Linux
+
+Required Python libraries:
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- streamlit
+- joblib
+- xgboost
+
+All required dependencies are listed in the requirements.txt file.
+
+### Installing
+1. Clone the repository
+git clone https://github.com/akshayavardhini/heart-disease-risk-prediction.git
+
+2. Navigate to the project directory
+cd heart-disease-risk-prediction
+
+3. Install dependencies
+pip install -r requirements.txt
+
+### Executing Program
+1. Ensure all dependencies are installed
+
+2. Run the application
+streamlit run app.py
+
+3. Open the browser and visit
+http://localhost:8501
+
+4. Enter the required health parameters to view the prediction result
+
+## Project Structure
+├── app.py
+├── model_train.ipynb
+├── heart.csv
+├── knn_model.pkl
+├── scaler.pkl
+├── requirements.txt
+└── README.md
+
+## Help
+
+If you encounter issues while running the application, try the following:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Ensure Python is properly installed and added to the system PATH.
+
+## Disclaimer
+
+This project is intended for educational and learning purposes only.  
+It is not a medical diagnostic tool.  
+Always consult a certified healthcare professional for medical advice.
+
+## Authors
+
+Akshaya Vardhini  
+Pre-Final Year M.Tech Integrated Software Engineering Student, VIT  
+Machine Learning | Data Science | Web Development
+
+## Acknowledgments
+
+- UCI / Kaggle Heart Disease Dataset
+- Scikit-learn Documentation
+- Streamlit Community
+- Open-source Machine Learning Contributors
+
+
+
